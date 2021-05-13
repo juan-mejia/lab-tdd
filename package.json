@@ -1,0 +1,23 @@
+{
+  "name": "lab-tdd",
+  "version": "1.0.0",
+  "description": "Laboratorio Ingenieria de Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan-mejia/lab-tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan-mejia/lab-tdd/issues"
+  },
+  "homepage": "https://github.com/juan-mejia/lab-tdd#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
