@@ -1,4 +1,7 @@
 
+const suma = (a, b) => {
+    return a + b;
+}
 // Prube funcion suma
 
 const prueba_suma = ()=> {
@@ -9,7 +12,7 @@ const prueba_suma = ()=> {
     // act
     let resultado = suma(a, b);
     // assert
-    console.assert(resultado === esperado, "Fallo funcion suma");
+    console.assert(resultado == esperado, "Fallo funcion suma");
 }
 
 prueba_suma();
