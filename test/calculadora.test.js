@@ -1,5 +1,6 @@
 const {test, expect} = require('@jest/globals')
 const suma = require('../modules/suma');
+const resta = require('../modules/resta');
 
 test('la suma de 2 y 5 devuelve 7', () => {
     // 2 + 5 =7
