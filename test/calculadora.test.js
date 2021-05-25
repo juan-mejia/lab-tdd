@@ -1,6 +1,7 @@
 const {test, expect} = require('@jest/globals')
 const suma = require('../modules/suma');
 const resta = require('../modules/resta');
+const multiplicacion = require('../modules/multiplicacion');
 
 test('la suma de 2 y 5 devuelve 7', () => {
     // 2 + 5 =7
@@ -24,7 +25,7 @@ test('la resta de 10 y 6 devuelve 4', ()=> {
     expect(resultado).toBe(esperado)
 })
 
-test('la multiplicacion de 4 y 5 devuelve', ()=> {
+test('la multiplicacion de 4 y 5 devuelve 20', ()=> {
     // 4 * 5 = 20
     let a = 4;
     let b = 5;
