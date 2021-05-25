@@ -47,3 +47,13 @@ test('la division en 10 y 2 devuelve 5', ()=> {
     // assert
     expect(resultado).toBe(esperado);
 })
+
+test('la raíz cuadrada de 25 devuelve 5', ()=> {
+    // sqrt(25) = 5
+    let a = 25
+    let esperado = 5;
+    // act
+    let resultado = raizcuadrada(25);
+    // assert
+    expect(resultado).toBe(esperado)
+})
