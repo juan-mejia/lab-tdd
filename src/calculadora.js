@@ -1,18 +1,12 @@
+const suma = require('../modules/suma')
+const resta = require('../modules/resta')
+const multiplicacion = require('../modules/multiplicacion')
+const division = require('../modules/division')
+const raizcuadrada = require('../modules/raizcuadrada')
 
-const suma = (a, b) => {
-    return a + b;
-}
-// Prube funcion suma
+module.exports.suma = suma;
+module.exports.resta = resta;
+module.exports.multiplicacion = multiplicacion;
+module.exports.division = division;
+module.exports.raizcuadrada = raizcuadrada;
 
-const prueba_suma = ()=> {
-    // 2 + 5 =7
-    let a = 2;
-    let b = 5;
-    let esperado = 7;
-    // act
-    let resultado = suma(a, b);
-    // assert
-    console.assert(resultado == esperado, "Fallo funcion suma");
-}
-
-prueba_suma();
