@@ -3,9 +3,13 @@ Laboratorio Ingenieria de Software
 Comienza el laboratorio
 
 1. Suma
-- Test resta
-- Modulo resta
+- Test suma
+- Modulo suma
 
 2. Resta
 - Test resta
 - Modulo resta
+
+3. Multiplicación
+- Test multiplicación
+- Modulo multiplicación
