@@ -3,6 +3,7 @@ const suma = require('../modules/suma');
 const resta = require('../modules/resta');
 const multiplicacion = require('../modules/multiplicacion');
 const division = require('../modules/division');
+const raizcuadrada = require('../modules/raizcuadrada');
 
 test('la suma de 2 y 5 devuelve 7', () => {
     // 2 + 5 =7
