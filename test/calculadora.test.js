@@ -35,3 +35,14 @@ test('la multiplicacion de 4 y 5 devuelve 20', ()=> {
     // assert
     expect(resultado).toBe(esperado);
 })
+
+test('la division en 10 y 2 devuelve 5', ()=> {
+    // 10 / 2 = 5
+    let a = 10;
+    let b = 2;
+    let esperado = 5;
+    // act
+    let resultado = division(10, 2);
+    // assert
+    expect(resultado).toBe(esperado);
+})

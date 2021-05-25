@@ -13,3 +13,6 @@ Comienza el laboratorio
 3. Multiplicación
 - Test multiplicación
 - Modulo multiplicación
+
+4. División
+- Test división
