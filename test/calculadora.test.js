@@ -22,9 +22,9 @@ test('la resta de 10 y 6 devuelve 4', ()=> {
     let b = 6
     let esperado = 4
     // act
-    let resultado = resta(a,b)
+    let resultado = resta(a,b);
     // assert 
-    expect(resultado).toBe(esperado)
+    expect(resultado).toBe(esperado);
 })
 
 test('la multiplicacion de 4 y 5 devuelve 20', ()=> {
@@ -49,12 +49,15 @@ test('la division en 10 y 2 devuelve 5', ()=> {
     expect(resultado).toBe(esperado);
 })
 
-test('la raíz cuadrada de 25 devuelve 5', ()=> {
+test('la raíz cuadrada de 2 devuelve 1.41421356', ()=> {
     // sqrt(25) = 5
-    let a = 25
-    let esperado = 5;
+    let a = 2
+    let esperado = 1.41421356;
     // act
-    let resultado = raizcuadrada(25);
+    let resultado = raizcuadrada(a);
     // assert
-    expect(resultado).toBe(esperado)
+    let tolerancia = 0.000001;
+    let errorCometido = resultado - esperado;
+    expect(errorCometido).toBeLessThanOrEqual(tolerancia);
+    expect(resultado).toBeCloseTo(esperado)
 })
